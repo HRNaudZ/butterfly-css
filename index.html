@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Butterfly-css</title>
+    <link rel="stylesheet" href="css/butterfly-css.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/spaces.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/behaviours.css">
+</head>
+<body>
+    <div class="navbar bg-teal white at-right fixed">
+        <span class="grid"></span>
+        <a href class="logo">Logo</a>
+        <a href>Accueil</a>
+        <a href>Poduits</a>
+        <a href>Mentions</a>
+        <a href>APropos</a>
+    </div>
+    <br>
+    <div class="container">
+        <p class="white bg-teal larger at-center"> Ceci est un paragraphe <br> Sur deux lignes </p>
+        &nbsp;
+        <p class="white bg-red larger at-center"> Ceci est un paragraphe <br> Sur deux lignes </p>
+        <a class="btn white bg-teal large f-right" href="#">Mon Button</a>
+        <blockquote class="large">Ceci est un blocquote  <br> Toujours dans le blockquote</blockquote>
+        <div class="at-center">
+            <div class="card c-x inline-b">
+                <img class="card-image" src="img/artsfon.com-76698.jpg" alt="Monster Energy" />
+                Une énergie de Monstre dans le corps o_O ! Mais Pourquoi faire ? O_o <br><br>
+                <a class="btn white bg-red large" href="#">Télécharger</a>
+            </div>
+            <div class="card c-x inline-b">
+                <img class="card-image" src="img/artsfon.com-76698.jpg" alt="Monster Energy" />
+                Une énergie de Monstre dans le corps o_O ! Mais Pourquoi faire ? O_o <br><br>
+                <a class="btn white bg-red large" href="#">Télécharger</a>
+            </div>
+            <div class="card c-x inline-b">
+                <img class="card-image" src="img/artsfon.com-76698.jpg" alt="Monster Energy" />
+                Une énergie de Monstre dans le corps o_O ! Mais Pourquoi faire ? O_o <br><br>
+                <a class="btn white bg-red large" href="#">Télécharger</a>
+            </div>
+        </div>
+        <br>
+        <p class="msg minfo mx">
+            This is an Info Msg  :!! or Info Alert if you want o_O 
+        </p>
+        <br>
+        <form>
+            <label id="name">Nom</label>
+            <input name="name" label="name" type="text" class="i-smaller" />
+            <br>
+            <label id="firstname">Votre Email</label>
+            <input name="firstname" label="firstname" type="email" class="i-small" />
+            <br>
+            <label id="firstnamei">BirthDay</label>
+            <input name="firstnamei" label="firstnamei" type="date" class="i-error" required />
+            <br>
+            <input type="button" placeholder="Here!!" class="" value="Envoyer" />
+            <br>
+            <input type="file" value="Choose a file" class="i-large" name="fic" required/>
+            <br>
+            <label id="msg">Votre Message</label>
+            <textarea name="msg" label="msg" class="i-larger"></textarea>
+            <br>
+            <input type="checkbox" name="cff" checked/> J'accepte les conditions d'utilisation
+            <br>
+            <input type="radio" name="genre" /> Homme
+            <br>
+            <input type="radio"  name="genre" checked /> Femme
+            <br>
+            <input type="radio"  name="genre" /> HomoSapiens
+            <br>
+            <input type="submit" value="Send" class="btn bg-red white"/>
+        </form>
+    </div>
+
+    
+    <script src="js/butterfly-css.js"></script>
+</body>
+</html>

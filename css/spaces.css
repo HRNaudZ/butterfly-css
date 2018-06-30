@@ -1,0 +1,53 @@
+/*Text Sizes*/
+.smaller{
+    font-size: 0.8em;
+}
+.small{
+    font-size: 0.9em;
+}
+.normal{
+    font-size: 1em;
+}
+.large{
+    font-size: 1.2em;
+}
+.larger{
+    font-size: 1.4em;
+}
+
+/*Input Sizes*/
+.i-smaller{
+    width: 200px !important;
+}
+.i-small{
+    width: 250px !important;
+}
+.i-large{
+    width: 400px !important;
+}
+.i-larger{
+    width: 500px !important;
+}
+
+/*Card Sizes*/
+.c-x{
+    width: 300px !important;
+}
+.c-xx{
+    width: 400px !important;
+}
+.c-xxx{
+    width: 500px !important;
+}
+.c-xxxx{
+    width: 600px !important;
+}
+.c-xxxxx{
+    width: 700px !important;
+}
+.c-xxxxxx{
+    width: 800px !important;
+}
+.c-xxxxxxx{
+    width: 900px !important;
+}

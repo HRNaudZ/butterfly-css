@@ -1,0 +1,89 @@
+/*Setting padding for containers */
+.container{
+    padding: 15px;
+}
+
+/*Setting up text-alignement behaviours */
+.at-center{
+    text-align: center;
+}
+.at-left{
+    text-align: left;
+}
+.at-right{
+    text-align: right;
+}
+
+/*Setting up display behaviours */
+.hide, .none{
+    display: none;
+}
+.block{
+    display: block;
+}
+.inline{
+    display: inline;
+}
+.inline-b{
+    display: inline-block;
+}
+
+/*Input with errors*/
+.i-error{
+    border-bottom-color:red !important;
+}
+
+/*Setting up positions */
+.fixed{
+    position: fixed;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+
+/*Transparent background */
+.transparent{
+    background-color: transparent !important;
+}
+
+/*Setting up floating behaviours */
+.f-left{
+    float: left;
+}
+.f-right{
+    float:right;
+}
+.f-inherit{
+    float: inherit;
+}
+
+/*Different behaviours of Mesgs*/
+.msuccess{
+    border-color: green;
+}
+.mwarning{
+    border-color: orange;
+}
+.merror{
+    border-color: rgb(212, 83, 83);
+}
+.minfo{
+    border-color: dodgerblue;
+}
+
+/*The X to close a Mesg behaviours*/
+.msuccess .x-close{
+    color: green;
+}
+.mwarning .x-close{
+    color: orange;
+}
+.merror .x-close{
+    color: rgb(212, 83, 83);
+}
+.minfo .x-close{
+    color: dodgerblue;
+}
